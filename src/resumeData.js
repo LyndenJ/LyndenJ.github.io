@@ -1,7 +1,6 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Lynden Jones",
-    "role": "third year student at the University of Alberta persuing a co-op bachelors degree in software engineering",
+    "role": "third year student at the University of Alberta pursuing a co-op bachelors degree in software engineering",
     "linkedinId":" Lynden Jones",
     "skypeid": "Your skypeid",
     "roleDescription": " I am an aspiring fullstack web devoloper who thrives in an environment where I can learn and absorb lots of information to help refine my craft",
@@ -22,9 +21,11 @@ let resumeData = {
         //   "className":"fa fa-twitter"
         // }
       ],
-    "aboutme":"I'm from Calgary, Alberta, Canada and have been teaching myself software development ever since I owned my first computer. Fullstack web development is my bread and butter and I have aspirations to move into Machine Learning and Artificial Intelligence. I am currently on a study term at Ualberta looking to put my skillset towards an internship beginning in January 2023",
+    "aboutme":"I'm from Calgary, Alberta, Canada and have been teaching myself software development ever since I owned my first computer. Fullstack web development is my bread and butter and I have aspirations to move into Machine Learning and Artificial Intelligence.",
+    "aboutme2":"This past summer, I worked at Neo Financial as a Software Test Engineer, a startup financial institution based in Calgary. I was a part of the Growth team where I was reponsible for developing tests for new features and bug fixes. I also had the opportunity to help the iOS engineers create and refine a training program that would be implemented to help the onboarding of future new-hires on the iOS team.",
+    "aboutme3":"I am currently on a study term at Ualberta looking to put my skillset towards an internship beginning in January 2023. If you think I am a good fit for your team, feel free to contact me at lgjones@ualberta.ca",
     "address":"+1 (587) 577-8000",
-    "website":"lyndenjones0@gmail.com",
+    "website":"lgjones@ualberta.ca",
     "education":[
       {
         "UniversityName":"University of Alberta",

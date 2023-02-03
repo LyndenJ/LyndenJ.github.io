@@ -15,15 +15,11 @@ let resumeData = {
           "url":"https://github.com/LyndenJ",
           "className":"fa fa-github"
         },
-        // {
-        //   "name":"skype",
-        //   "url":"http://twitter.com/rbhatia46",
-        //   "className":"fa fa-twitter"
-        // }
+
       ],
     "aboutme":"I'm from Calgary, Alberta, Canada and have been teaching myself software development ever since I owned my first computer. Fullstack web development is my bread and butter and I have aspirations to move into Machine Learning and Artificial Intelligence.",
     "aboutme2":"This past summer, I worked at Neo Financial as a Software Test Engineer, a startup financial institution based in Calgary. I was a part of the Growth team where I was reponsible for developing tests for new features and bug fixes. I also had the opportunity to help the iOS engineers create and refine a training program that would be implemented to help the onboarding of future new-hires on the iOS team.",
-    "aboutme3":"I am currently on a study term at Ualberta looking to put my skillset towards an internship beginning in January 2023. If you think I am a good fit for your team, feel free to contact me at lgjones@ualberta.ca",
+    "aboutme3":"I am currently on a study term at uAlberta looking to put my skillset towards an internship beginning in May 2023. If you think I am a good fit for your team, feel free to contact me at lgjones@ualberta.ca",
     "address":"+1 (587) 577-8000",
     "website":"lgjones@ualberta.ca",
     "education":[
@@ -34,13 +30,7 @@ let resumeData = {
         "YearOfPassing":"2025",
         "Achievements":"Awarded a Bruce A. Johnston Scholarship for Engineering and Leadership",
       },
-      // {
-      //   "UniversityName":"Some University",
-      //   "specialization":"Some specialization",
-      //   "MonthOfPassing":"Jan",
-      //   "YearOfPassing":"2018",
-      //   "Achievements":"Some Achievements"
-      // }
+
     ],
     "work":[
       {
@@ -73,23 +63,32 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Navigation System",
-        "description":"Client-Server demo",
-        "imgurl":"images/portfolio/navigationSystem.jpeg"
+        "description":"A functioning GPS system of Edmonton. This is an implementation of Dijkstra's algorithm and a Client-Server relationship. Go ahead and compare it to Google Maps;)",
+        "imgurl":"images/portfolio/navigationSystem.jpeg",
+        "repoUrl":"https://github.com/LyndenJ/Edmonton-GPS"
       },
-      {
-        "name":"Naive Bayes Classifier",
-        "description":"Weather Classification",
-        "imgurl":"images/portfolio/classifier.jpeg"
-      },
+      // {
+      //   "name":"Naive Bayes Classifier",
+      //   "description":"Weather Classification",
+      //   "imgurl":"images/portfolio/classifier.jpeg"
+      // },
       {
         "name":"Compression Algorithm",
         "description":"Huffman Encoding",  
-        "imgurl":"images/portfolio/huffmanEncoding.webp"
+        "imgurl":"images/portfolio/huffmanEncoding.webp",
+        "repoUrl":"https://github.com/LyndenJ/c274.Fall.2021/tree/main/huffman_2021"
       },
       {
-        "name":"This Personal Website!",
-        "description":"",
-        "imgurl":"images/portfolio/youAreHere.jpeg"
+        "name":"This Personal Website",
+        "description":"What better way to show off react.js knowledge than creating this website. Click to check out the repo!",
+        "imgurl":"images/portfolio/youAreHere.jpeg",
+        "repoUrl":"https://github.com/LyndenJ/WebsiteV3"
+      },
+      {
+        "name":"Journ.ai",
+        "description":"A journalling app powered by artificial intelligence! Write down journal entries and watch the power of Natural Language Processing extract and show you the relative frequency of your 7 most core emotions.",
+        "imgurl":"images/portfolio/journAiLogo.png",
+        "repoUrl":"https://devpost.com/software/journai-8wl03y"
       }
     ],
     "testimonials":[

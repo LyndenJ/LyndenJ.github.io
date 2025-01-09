@@ -1,11 +1,11 @@
 let resumeData = {
   name: "Lynden Jones",
   role:
-    "Fifth-year student at the University of Alberta in computer engineering and mathematics",
+    "Fifth-year student at the University of Alberta in computer engineering and mathematics (Graduation Spring 2026)",
   linkedinId: " Lynden Jones",
   skypeid: "Your skypeid",
   roleDescription:
-    "I’m a student with hands-on experience across tech’s cutting edge—from developing high-speed self-driving software for a race car to crafting efficient code for AWS S3 Express One Zone. Whether it’s AI on wheels or cloud at scale, I write code that doesn’t just work—it flies.",
+    "I’m a student with hands-on experience across tech’s cutting edge, from developing high-speed self-driving software for a race car to crafting efficient code for AWS S3 Express One Zone. Whether it’s AI on wheels or cloud at scale, I write code that doesn’t just work, it flies.",
   socialLinks: [
     {
       name: "linkedin",
@@ -23,7 +23,7 @@ let resumeData = {
   aboutme2:
     "This past summer, I worked at AWS on the S3 Express One Zone team, where I developed capacity provisioning solutions to meet dynamic customer demands and successfully brought my project to production.",
   aboutme3:
-    "Currently, I'm completing a study term at uAlberta for this semester and winter 2025. I’m open to internships starting in summer 2025 and fall 2025. If you think I'd be a great addition to your team, feel free to reach out at lgjones@ualberta.ca.",
+    "Currently, I'm completing a study term at uAlberta for the Winter 2025 semester. I’m open to internships starting in Summer 2025 and Fall 2025. If you think I'd be a great addition to your team, feel free to reach out at lgjones@ualberta.ca.",
   address: "+1 (587) 577-8000",
   website: "lgjones@ualberta.ca",
   education: [
@@ -31,7 +31,7 @@ let resumeData = {
       UniversityName: "University of Alberta",
       Major: "B.Sc Computer Engineering Software Option Co-op",
       Minor: "Mathematics",
-      MonthOfPassing: "April",
+      MonthOfPassing: "Grad - April",
       YearOfPassing: "2026",
       GPA: "3.7/4.0",
       Achievements: [
@@ -74,8 +74,21 @@ let resumeData = {
         "Led the development and deployment of an SQL database from requirements specification to implementation, managing client contacts and sales data for a small medical company. Additionally, I optimized warehouse operations by overseeing inventory management, order fulfillment, and logistics, resulting in a 23% increase in efficiency by the end of the summer.",
     },
   ],
+  research: [
+    {
+      ProjectName: "Modelling the Effects of Cross-Winds on Aero-ballistic Projectiles",
+      Supervisor: "Dr. Jason Myatt",
+      FromDate: "January 2023",
+      ToDate: "April 2023",
+      Description:
+        "Conducted a comprehensive study on the impact of cross-winds on the trajectory of aero-ballistic projectiles, focusing on the development of a mathematical model to predict projectile behavior under various wind conditions. Utilized Python to simulate projectile motion and validate the model against experimental data. Presented findings at the end of the semester, where I was awarded the Dean’s Research Award for outstanding research contributions.",
+    }
+  ],
   skillsDescription: "Some of my notable skills include:",
   skills: [
+    {
+      skillname: "Rust",
+    },
     {
       skillname: "Python",
     },
